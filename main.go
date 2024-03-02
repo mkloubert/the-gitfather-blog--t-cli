@@ -93,8 +93,8 @@ func main() {
 	}
 
 	// setup flags ...
-	rootCmd.Flags().StringVarP(&language, "context", "c", "", "additional context information for chat model") // --context / -c flag
-	rootCmd.Flags().StringVarP(&language, "language", "l", "", "the name of the target language")              // --language / -l flag
+	rootCmd.Flags().StringVarP(&context, "context", "c", "", "additional context information for chat model") // --context / -c flag
+	rootCmd.Flags().StringVarP(&language, "language", "l", "", "the name of the target language")             // --language / -l flag
 
 	// run the application and parse
 	// the command line arguments
